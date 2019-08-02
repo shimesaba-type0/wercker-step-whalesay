@@ -8,5 +8,5 @@ build:
 publish:
   steps:
   - internal/publish-step:
-      # owner: tkshell
+      owner: takashikono
       # private: true
