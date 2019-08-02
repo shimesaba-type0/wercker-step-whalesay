@@ -2,11 +2,11 @@ box: docker/whalesay
 
 build:
   steps:
-    - shellcheck:
-      files: run.sh
+  - shellcheck:
+    files: run.sh
 
 publish:
   steps:
-    - internal/publish-step:
-      owner: tkshell
-      # private: true
+  - internal/publish-step:
+    owner: tkshell
+    # private: true
