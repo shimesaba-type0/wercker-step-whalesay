@@ -1,0 +1,7 @@
+name: whalesay
+version: 1.0.0
+summary: whalesay
+properties:
+  - name: message
+    type: string
+    reguired: true
